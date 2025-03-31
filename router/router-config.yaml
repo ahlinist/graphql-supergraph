@@ -1,0 +1,9 @@
+supergraph:
+  introspection: true
+  listen: 127.0.0.1:8080
+include_subgraph_errors:
+  all: true
+telemetry:
+  instrumentation:
+    spans:
+      mode: spec_compliant
